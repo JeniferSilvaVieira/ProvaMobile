@@ -1,17 +1,10 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 import Login from './Screens/login';
 import Estoque from './Screens/estoque';
+import TalkToUs from './Screens/faleConosco';
 
 export default function App() {
-  return (
-    Login, Estoque
-  );
-};
+    return (<TalkToUs />
+)};
 
-const styles = StyleSheet.create({
-  login: {
-    flex: 1,
-    justifyContent: 'center',
-  }
-});
